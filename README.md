@@ -6,10 +6,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT License](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-<br>
-Este proyecto es un fork de [JGPenaB/Pasante-bot](https://github.com/JGPenaB/Pasante-bot) con el propósito de adaptarlo a Telegram.
-<br>
-Repositorio mantenido por [César Escudero](https://github.com/cedaesca)
+<br>Este proyecto es un fork de [JGPenaB/Pasante-bot](https://github.com/JGPenaB/Pasante-bot) con el propósito de adaptarlo a Telegram.
+<br><br>Repositorio mantenido por [César Escudero](https://github.com/cedaesca).
 </div>
 
 --------
