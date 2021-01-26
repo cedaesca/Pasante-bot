@@ -1,17 +1,16 @@
 {
-  "name": "pasante-bot",
-  "version": "3.0.0",
-  "description": "Bot de Discord para hacer estupideces",
-  "main": "bot.js",
-  "author": "Autz64, Darioxlz, Watermelonnable",
+  "name": "pasante-bot-telegram",
+  "version": "1.0.0",
+  "description": "Bot de Telegram para hacer estupideces",
+  "main": "src/index.js",
+  "author": "César Escudero<cedaesca@gmail.com>",
   "scripts": {
-    "start": "node src/bot.js",
-    "dev": "nodemon src/bot.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "axios": "^0.21.0",
     "cheerio": "^1.0.0-rc.3",
-    "discord.js": "^12.5.0",
     "dotenv": "^8.2.0",
     "image-data-uri": "^2.0.1",
     "jsdom": "^16.4.0",
