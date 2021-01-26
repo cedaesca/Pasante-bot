@@ -1,12 +1,15 @@
-# <div align="center">Pasante bot</div> 
-<div align="center">¡Pequeño bot para Discord!</div><br>
+# <div align="center">Pasante bot, telegram version</div> 
+<div align="center">¡Pequeño bot para Telegram!</div><br>
 
 <div align="center">
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT License](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-<br>Desarrollado por: [Jesús Peña](https://github.com/JGPenaB), [José Padrón](https://github.com/josevenezuelapadron), [César Escudero](https://github.com/cedaesca).
+<br>
+Este proyecto es un fork de [JGPenaB/Pasante-bot](https://github.com/JGPenaB/Pasante-bot) con el propósito de adaptarlo a Telegram.
+<br>
+Repositorio mantenido por [César Escudero](https://github.com/cedaesca)
 </div>
 
 --------
@@ -35,9 +38,9 @@ Primero instala las dependencias necesarias:
 npm install
 ```
 
-Luego, crea un archivo .env que contenga la estructura del archivo `.env.example` y coloca el token de tu bot (para obtener un token, [sigue estos pasos](https://github.com/Chikachi/DiscordIntegration/wiki/How-to-get-a-token-and-channel-ID-for-Discord)):
+Luego, crea un archivo .env que contenga la estructura del archivo `.env.example` y coloca el token de tu bot.
 ```
-TOKEN=<tu token>
+TELEGRAM_API_TOKEN=<tu token>
 ```
 
 Y de último, para ejecutarlo, usa el siguiente comando:
@@ -48,7 +51,7 @@ Y de último, para ejecutarlo, usa el siguiente comando:
 
 --------
 
-Hecho en NodeJS con la librería [discord.js](https://github.com/discordjs/discord.js/).
+Hecho en NodeJS con la librería [Node.js Telegram Bot API](https://github.com/yagop/node-telegram-bot-api).
 
 El bot hace uso de la API "[Stack Exchange API](https://api.stackexchange.com/docs)" para las búsquedas en Stack Overflow. Tanto el Stack Exchange API como Stack Overflow pertenecen a Stack Exchange Inc.
 
